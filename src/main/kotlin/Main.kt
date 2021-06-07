@@ -1,7 +1,8 @@
 import kotlin.random.Random
 fun main(args: Array<String>) {
 
-  
+
+
     for(numero in Ejercicio1(11).array) {
         println(numero)
     }
@@ -12,4 +13,7 @@ fun main(args: Array<String>) {
     }
     
     Ejercicio2.array.forEach { println(it) }
+
+    val Ejercicio3 = Ejercicio3().array()
+
 }
